@@ -1,0 +1,41 @@
+{
+	"data": {
+		"type": "sessions",
+		"id": "5a4c8ce8-8af0-45e0-88e7-d5d1557c4240",
+		"attributes": {
+			"token-type": "Bearer",
+			"access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNjYiLCJ1bmlxdWVfbmFtZSI6Imphc29uYXBpIiwianRpIjoiNWE0YzhjZTgtOGFmMC00NWUwLTg4ZTctZDVkMTU1N2M0MjQwIiwidHlwIjoiVG9rZW4iLCJyb2xlIjpbIlB1YmxpYyIsIlNpdGVBZG1pbiIsIk1heEFkbWluIl0sInNpdGVfaWQiOiIxIiwibmJmIjoxNDk1MDk2MDI1LCJleHAiOjE0OTUxMDY4MjUsImlhdCI6MTQ5NTA5NjAyNSwiaXNzIjoiTWF4R2FsYXh5IEFQSSIsImF1ZCI6Ik1heEdhbGF4eSBVSSJ9.YbO26pjsMIDSxL9FGNHG5aQ4xnKOZrBK1hU4DmJKRMY"
+		},
+		"relationships": {
+			"user": {
+				"links": {
+					"self": "/v1/session/5a4c8ce8-8af0-45e0-88e7-d5d1557c4240/relationships/user/",
+					"related": "/v1/users/266/"
+				},
+				"data": {
+					"type": "users",
+					"id": 266
+				}
+			}
+		}
+	},
+	"links": {
+		"self": "/v1/sessions"
+	},
+	"included": [{
+		"type": "users",
+		"id": 266,
+		"attributes": {
+			"first-name": "JasonAPI",
+			"last-name": "Gu",
+			"login-time": "2017-05-18T01:27:05.649",
+			"reset-password": false
+		},
+		"relationships": {
+			
+		},
+		"links": {
+			"self": "/v1/users/266/"
+		}
+	}]
+}

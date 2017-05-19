@@ -1,0 +1,31 @@
+{
+  "data": {
+    "type": "sessions",
+    "id": 1,
+    "attributes": {
+      "token-type": "bearer",
+      "access-token": "CFDA85D557C1450.73C431B3C1857B13128818.BD43CAB08506133"
+    }
+  },
+  "relationships": {
+    "links": {
+      "self": "/sessions/123/relationships/user",
+      "related": "/users/"
+    },
+    "data": {
+      "type": "users",
+      "id": 38,
+      "attributes": {
+        "first-name": "Bob",
+        "last-name": "Anderson",
+        "login-time": "2017-03-14 22:57:05",
+        "reset-password": true
+      }
+    }
+  },
+  "links": {
+    "self": "/sessions",
+    "sites": "/sites",
+    "locations": "/locations"
+  }
+}
